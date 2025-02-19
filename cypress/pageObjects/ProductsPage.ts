@@ -1,4 +1,4 @@
-import { SortOptions } from 'cypress/enums/SortOption';
+import { SortOptions } from 'cypress/enums/SortOptions';
 
 export class ProductsPage {
   private inventoryItem = '[data-test="inventory-item"]';

@@ -2,7 +2,7 @@
 
 import { LoginPage } from '../../pageObjects/LoginPage';
 import { ProductsPage } from '../../pageObjects/ProductsPage';
-import { SortOptions } from '../../enums/SortOption';
+import { SortOptions } from '../../enums/SortOptions';
 
 describe('Products page functionality', () => {
   const loginPage = new LoginPage();
