@@ -1,3 +1,4 @@
+[![GitHub Actions](https://github.com/matebowski/cypress-automation/actions/workflows/cypress.yml/badge.svg)](https://github.com/matebowski/cypress-automation/actions)
 # Cypress Test Automation Project
 
 ## Project Overview
