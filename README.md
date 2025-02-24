@@ -7,25 +7,33 @@ This is an automation testing project for an e-commerce-like store. It uses Cypr
 ## Installation and Setup
 
 ### Prerequisites
-
 - **Node.js** (version 14 or higher)
 - **npm** (or yarn)
 
+### Installation Steps
+Clone the repository:
+```bash
+git clone https://github.com/matebowski/cypress-automation.git
+```
+Navigate to the project directory:
+```bash
+cd cypress-automation
+```
+Install dependencies:
+```bash
+npm install
+```
+
 ### How to Run the Project
+Running Tests
+Cypress Test Runner (Interactive Mode):
+```bash
+npx cypress open
+```
+Headless Mode:
+```bash
+npx cypress run
 
-1. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-2. **Run Cypress in Interactive Mode**
-
-To open the Cypress Test Runner, execute:
-
-  ```bash
-  npx cypress open
-  ```
-
+```
 ## CI/CD
 GitHub Actions automatically runs tests on every push to main and can be manually triggered. The workflow file is located in .github/workflows/cypress.yml.
